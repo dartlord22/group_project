@@ -1,0 +1,31 @@
+.hover-effect {
+    cursor: pointer;
+  }
+
+.box {
+    background-color: lightblue;
+    border: 1px solid blue;
+    min-height: 50px;
+    font-size: 2rem;
+}
+
+.bg-image {
+    /* background: url(images/bg.jpg) no-repeat center center fixed;  */
+    background: no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    /* filter:brightness(50%) */
+}
+
+.card {
+    width: 18rem; 
+    height: 10rem; 
+    border: 1px solid black; 
+    margin-bottom: 20px;  
+    background-size: cover; 
+    background-position: center;
+}
+
